@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>project</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <body class="bg-gray-900 relative">
+    <header class="bg-pink-500 py-1 sm:py-0 relative">
+      <div class="container mx-auto w-4/6/4 flex justify-evenly">
+        <a class="font-bold text-lg w-full flex items-center" href="">
+          <img class="w-10 h-10 rounded-full" src="images/images.png" />
+          <div class="inline-block items-center px-2">InStyle by Neela</div>
+        </a>
+        <nav class="">
+          <button id="mobile_icon" class="text-end-flex sm:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-8 h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
 
-<body class="bg-gray-900 relative">
-  <header class="bg-pink-500 py-1 sm:py-0 relative">
-    <div class="container mx-auto w-4/6/4 flex justify-evenly">
-      <a class="font-bold text-lg flex " href="">
-        <img class="w-10 h-10 rounded-full  " src="images/images.png">
-        <div class="inline-block items-center">
-          InStyle by Neela
-        </div>
-      </a>
-      <nav class="">
-        <button id="mobile_icon" class="text-end-flex sm:hidden ">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-8 h-8">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-        </button>
-        <ul id="main_menu"
-          class="absolute bg-pink-500 w-full left-0 top-10 p-4 text-center items-center hidden sm:block sm:relative sm:top-0 sm:flex sm:justify-evenly">
-          <li class="mb-2 sm:mb-0 sm:ml-8"><a
-              class="font-bold text-black hover:bg-pink-800 hover:transition-colors py-1 px-3" href="#">Home</a>
-          </li>
-          <li class="mb-2 sm:mb-0 sm:ml-8"><a
-              class="font-bold text-black hover:bg-pink-800 hover:transition-colors py-1 px-3 " href="#">About</a>
-          </li>
-          <li class="mb-2 sm:mb-0 sm:ml-8"><a
-              class="font-bold text-black hover:bg-pink-800 hover:transition-colors  py-1 px-3" href="#">Contact</a>
-          </li>
-          <li class="mb-2 sm:mb-0 sm:ml-8"><a
-              class="font-bold text-black hover:bg-pink-800 hover:transition-colors py-1 px-3" href="#">Services</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <script src="js/script.js"></script>
-</body>
-
+          <ul
+            id="main_menu"
+            class="absolute bg-pink-500 w-full top-10 p-4 items-center hidden sm:block sm:relative sm:top-0 left-0 sm:flex sm:justify-evenly text-center"
+          >
+            <li class="mb-2 sm:mb-0 sm:ml-8">
+              <a
+                class="font-bold text-black hover:bg-pink-800 hover:transition-colors py-1 px-3"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="mb-2 sm:mb-0 sm:ml-8">
+              <a
+                class="font-bold text-black hover:bg-pink-800 hover:transition-colors py-1 px-3"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="mb-2 sm:mb-0 sm:ml-8">
+              <a
+                class="font-bold text-black hover:bg-pink-800 hover:transition-colors py-1 px-3"
+                href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="mb-2 sm:mb-0 sm:ml-8">
+              <a
+                class="font-bold text-black hover:bg-pink-800 hover:transition-colors py-1 px-3"
+                href="#"
+                >Services</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script src="js/script.js"></script>
+  </body>
 </html>
